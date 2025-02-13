@@ -2,9 +2,9 @@
 function passValidate() {
     var pass = document.getElementById("password").value;
 
-    if (pass === "24monthshey") {
-        alert("Muahahahahahahahaha");
-        window.location.href = "mainpage.html";
+    if (pass === "question") {
+        alert("I have a question");
+        window.location.href = "valentines.html";
         return true;
     } 
     
